@@ -1,0 +1,51 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: rgb(244, 238, 238);
+    padding: 10px;
+
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .X {
+    color: red;
+  }
+  
+  .O {
+    color: blue;
+  }
+  
+  button {
+    padding: 10px 20px;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+     
+  }
+.cell {
+    background-color: antiquewhite;
+
+}  
+body {
+    background-color: rgb(244, 164, 164);
+}
